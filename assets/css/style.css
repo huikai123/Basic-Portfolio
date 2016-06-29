@@ -1,5 +1,6 @@
 header{background-color: white;
 	border-bottom: solid #cccccc;
+	position: relative;
 }
 
 body{
@@ -7,7 +8,6 @@ body{
 	width: 960px;
 	margin:0 auto;
 	background-image: url("../../assets/images/paisley.png");
-
 }
 
 
@@ -58,14 +58,37 @@ h2{
 	float: left;
 	width: 650px;
 	background-color: #ffffff;
-	height: 600px;
+	height: 480px;
+	position: relative;
+	top:30;
+
+}
+
+label{
+	padding:10 10;
+}
+
+input{
+	width: 90%;
+}
+
+.submit{
+	width: 80px;
+	height: 30px;
+	background-color: #4aaaa5;
 }
 
 .right{
+	font-size: 25px;
 	color: #4aaaa5;
 	float: right;
 	width: 270px;
+	height: 200px;
+	box-sizing: border-box;
 	background-color: #ffffff;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 footer{
