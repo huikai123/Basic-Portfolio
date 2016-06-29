@@ -1,23 +1,25 @@
 <!doctype html>
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assests/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title> Basic-Portfolio	</title>	
 </head>
 <body>
-	<header> <h1> Kai Zhong </h1></header>	
-	<nav>
-		<ul>
+	<header class="clearfix"> 
+		<h1 class="name"> 
+		Kai Zhong 
+		</h1>
+		<nav class="link">
 			<a href="index.html"> About </a>
 			<a href="contact.html"> Contact </a> 
-			<a href="portfolio.html"> Portfolio </a>
-		</ul>
-	</nav>
+			<a href="portfolio.html"> Portfolio </a>	
+		</nav>
+	</header>
 	<div class="left">
 		<section>
-			<h1>
+			<h2>
 			Contact
-			</h1>
+			</h2>
 			<p>
 				<label for="Name"> Name </label> <br>
 				<input type="text" name="Name"> <br>
@@ -27,13 +29,15 @@
 				<textarea rows="10" cols="21"></textarea><br>
 				<input type="submit" name="Submit">
 			</p>
+		</section>
+	</div>
 	<div class="right">
-		<h2> Connect with Me </h2>
+		<h3> Connect with Me </h3>
 		<section>
 			<img src="assets/images/icon-1.png" width="60px" height="60px">
 			<img src="assets/images/icon-3.png" width="60px" height="60px">
 			<img src="assets/images/icon-2.png" width="60px" height="60px">
 		</section>
 	</div>
-</body> 
 <footer>&#169 Copyright 2016 Kai Zhong</footer>
+</body>
