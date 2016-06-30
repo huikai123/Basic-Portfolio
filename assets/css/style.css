@@ -65,10 +65,12 @@ h2{
 
 .profile{
 	float: left;
+	padding-right: 40px;
+	padding-bottom: 40px;
 }
 
 .bio{
-	float: left;
+	clear: both;
 }
 
 label{
