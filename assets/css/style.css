@@ -1,6 +1,5 @@
 header{background-color: white;
 	border-bottom: solid #cccccc;
-	position: relative;
 }
 
 body{
@@ -59,9 +58,8 @@ h2{
 	width: 650px;
 	background-color: #ffffff;
 	height: 480px;
-	position: relative;
-	top:30;
-
+	margin-top:30px;
+	margin-bottom: 30px;
 }
 
 label{
@@ -78,17 +76,35 @@ input{
 	background-color: #4aaaa5;
 }
 
+.hr{
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .right{
 	font-size: 25px;
 	color: #4aaaa5;
 	float: right;
 	width: 270px;
-	height: 200px;
 	box-sizing: border-box;
 	background-color: #ffffff;
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+h3{
+	padding-bottom: 20px;
+}
+
+hr{
+	background-color: #cccccc;
+	width: 75%;
+	margin: 0 auto;
+	height: 2px;
+	margin-bottom: 10px;
 }
 
 footer{
