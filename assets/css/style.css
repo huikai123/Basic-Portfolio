@@ -61,6 +61,7 @@ h2{
 	padding: 40px;
 	box-sizing: border-box;
 	margin-bottom: 30px;
+	border: solid 3px #dddddd;
 }
 
 .profile{
@@ -124,6 +125,7 @@ span{
 	padding-bottom: 20px;
 	margin-top: 30px;
 	padding-top: 20px;
+	border: solid 3px #dddddd;
 }
 
 h3{
